@@ -1,7 +1,7 @@
 # Gerard Esoy
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3200&pause=1200&color=94A3B8&vCenter=true&width=620&lines=Civil+Engineering+%7C+Computational+Mechanics;Macaulay+Singularity+%26+Direct+Stiffness+FEM;Author+of+Beam+Solver+(beamsolver.app)" alt="Typing Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3200&pause=1200&color=94A3B8&vCenter=true&width=650&lines=Civil+Engineering+%7C+Computational+Mechanics;Determinate+%26+Indeterminate+Structural+Analysis;Author+of+Beam+Solver+(beamsolver.app)" alt="Typing Header" />
 </p>
 
 Civil engineering student specializing in computational mechanics, structural analysis automation, and numerical methods. Focused on building deterministic engineering software that bridges theoretical mechanics and production web systems.
@@ -14,13 +14,16 @@ Civil engineering student specializing in computational mechanics, structural an
   <tr>
     <td width="50%" valign="top">
       <h3>Beam Solver</h3>
-      <p><strong>Production Application</strong> — <a href="https://beamsolver.app">beamsolver.app</a></p>
-      <p>A hybrid symbolic-numeric structural mechanics engine for complex, non-prismatic, and compound beam systems.</p>
+      <p><strong>Production Platform</strong> — <a href="https://beamsolver.app">beamsolver.app</a></p>
+      <p>A web-based structural analysis engine built for pedagogical transparency. Unlike commercial software (SkyCiv, STAAD) that acts as a black box spitting out final numbers, Beam Solver functions like a virtual professor—deriving complete, step-by-step mathematical solutions for complex beam problems.</p>
       <ul>
-        <li><strong>Coupled Formulation:</strong> Macaulay singularity engine coupled with 1D Direct Stiffness Method (DSM).</li>
-        <li><strong>Internal Hinges:</strong> Dual-rotation DOF splitting preserving matrix bandedness without static condensation.</li>
-        <li><strong>Piecewise Rigidity:</strong> Exact boundary integration across variable flexural rigidity ($EI$) via a $2N \times 2N$ continuity system.</li>
-        <li><strong>Export Pipeline:</strong> Headless Cairo/LaTeX engine compiling step-by-step vector derivations.</li>
+        <li><strong>Step-by-Step Derivations:</strong> Derives reactions, shear, moment, slope, and deflection with full algebraic steps line-by-line—functioning like Photomath for structural mechanics.</li>
+        <li><strong>Determinate & Indeterminate Spans:</strong> Solves both statically determinate beams and indeterminate systems (propped cantilevers, fixed-fixed spans, and multi-span continuous beams) with full boundary compatibility.</li>
+        <li><strong>Compound Beam Breakdown:</strong> Automatically decomposes multi-hinge Gerber beams span-by-span, illustrating exactly how internal forces transfer between members.</li>
+        <li><strong>Advanced Structural Conditions:</strong> Handles variable flexural stiffness (stepped EI), sinking supports (support settlement), and internal moment releases.</li>
+        <li><strong>Textbook Drafting Engine:</strong> Generates clean, clutter-free Free Body Diagrams adhering to civil engineering drafting standards with intelligent label placement.</li>
+        <li><strong>Stress Analysis:</strong> Computes flexural stresses and section properties for standard profiles (I-beams, pipes, solid rounds, and rectangular sections).</li>
+        <li><strong>Automated PDF Reports:</strong> Compiles the entire step-by-step derivation into a publication-ready PDF calculation sheet in one click.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Python-1e293b?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -34,9 +37,9 @@ Civil engineering student specializing in computational mechanics, structural an
       <p><strong>Open Source Library</strong> — <a href="https://github.com/gerardesoy/soil-classifier-USCS-">ASTM D2487</a></p>
       <p>Automated geotechnical soil classification implementing ASTM D2487 specifications for engineering soil evaluation.</p>
       <ul>
-        <li><strong>Standardized Logic:</strong> Deterministic decision tree parsing gradation curves and Atterberg limits.</li>
+        <li><strong>Standardized Logic:</strong> Deterministic decision tree parsing particle size distribution curves and Atterberg limits.</li>
         <li><strong>Boundary Criteria:</strong> Full support for dual-symbol classifications and the plasticity chart "hatched zone" (CL-ML).</li>
-        <li><strong>Validation:</strong> Verification against standard civil engineering geotechnical laboratory benchmarks.</li>
+        <li><strong>Engineering Validation:</strong> Verified against standard civil engineering geotechnical laboratory benchmarks.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Python-1e293b?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -53,6 +56,7 @@ Civil engineering student specializing in computational mechanics, structural an
 
 <p align="left">
   <img src="https://img.shields.io/badge/Structural_Mechanics-1e293b?style=flat-square" alt="Mechanics" />
+  <img src="https://img.shields.io/badge/Determinate_%26_Indeterminate_Analysis-1e293b?style=flat-square" alt="Indeterminate" />
   <img src="https://img.shields.io/badge/Finite_Element_Analysis_(1D_DSM)-1e293b?style=flat-square" alt="FEA" />
   <img src="https://img.shields.io/badge/Euler--Bernoulli_Theory-1e293b?style=flat-square" alt="Euler" />
   <img src="https://img.shields.io/badge/Geotechnical_Classification-1e293b?style=flat-square" alt="Geotech" />
@@ -64,7 +68,7 @@ Civil engineering student specializing in computational mechanics, structural an
 
 ---
 
-## Connect & Systems
+## Connect & Platforms
 
 <p align="left">
   <a href="https://beamsolver.app">
