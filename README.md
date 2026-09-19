@@ -4,6 +4,8 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3200&pause=1200&color=94A3B8&vCenter=true&width=650&lines=Civil+Engineering+%7C+Computational+Mechanics;Determinate+%26+Indeterminate+Structural+Analysis;Author+of+Beam+Solver+(beamsolver.app)" alt="Typing Header" />
 </p>
 
+https://beamsolver.app
+
 Civil engineering student specializing in computational mechanics, structural analysis automation, and numerical methods. Focused on building deterministic engineering software that bridges theoretical mechanics and production web systems.
 
 ---
