@@ -1,12 +1,10 @@
 # Gerard Esoy
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3200&pause=1200&color=94A3B8&vCenter=true&width=650&lines=Civil+Engineering+%7C+Computational+Mechanics;Determinate+%26+Indeterminate+Structural+Analysis;Author+of+Beam+Solver+(beamsolver.app)" alt="Typing Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3200&pause=1200&color=94A3B8&vCenter=true&width=650&lines=Creator+of+BeamSolver+(beamsolver.app);Step-by-Step+Structural+Analysis+Engine;Computational+Mechanics+%26+Engineering+Tools" alt="Typing Header" />
 </p>
 
-https://beamsolver.app
-
-Civil engineering student specializing in computational mechanics, structural analysis automation, and numerical methods. Focused on building deterministic engineering software that bridges theoretical mechanics and production web systems.
+I built [**BeamSolver**](https://beamsolver.app) — a structural analysis engine that generates full, step-by-step mathematical derivations for determinate and indeterminate beams. Focused on computational mechanics and practical engineering software.
 
 ---
 
