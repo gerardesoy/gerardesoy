@@ -17,10 +17,19 @@ I built [**BeamSolver**](https://beamsolver.app) — a structural analysis engin
       <p><strong>Production Platform</strong> — <a href="https://beamsolver.app">beamsolver.app</a></p>
       <p>A web-based structural analysis engine built for pedagogical transparency. Unlike commercial software (SkyCiv, STAAD) that acts as a black box spitting out final numbers, Beam Solver functions like a virtual professor—deriving complete, step-by-step mathematical solutions for complex beam problems.</p>
       <ul>
-        <li><strong>Step-by-Step Derivations:</strong> Derives reactions, shear, moment, slope, and deflection with full algebraic steps line-by-line—functioning like Photomath for structural mechanics.</li>
+        <li><strong>Step-by-Step Analytical Solutions:</strong> Full line-by-line mathematical derivations covering:
+          <ul>
+            <li><strong>Equilibrium Equations:</strong> Global and segment equilibrium with free-body cuts to solve determinate reactions and internal stress resultants.</li>
+            <li><strong>Piecewise Equations:</strong> Segment-by-segment integration formulating exact shear V(x) and bending moment M(x) polynomial functions across every load discontinuity.</li>
+            <li><strong>Macaulay's Method:</strong> Direct closed-form deflection δ(x) and slope θ(x) equations using singularity brackets across multi-load spans without piecewise boundary matching.</li>
+            <li><strong>Three-Moment Equation (3ME):</strong> Continuous beam analysis supporting non-prismatic members with varying flexural rigidity (EI) and support settlement.</li>
+            <li><strong>Method of Superposition:</strong> Redundant force analysis for propped cantilevers and elastic spring supports.</li>
+            <li><strong>Fixed-End Moments (FEM):</strong> Standard and custom fixed-end moment derivations for continuous and restrained spans.</li>
+          </ul>
+        </li>
         <li><strong>Determinate & Indeterminate Spans:</strong> Solves both statically determinate beams and indeterminate systems (propped cantilevers, fixed-fixed spans, and multi-span continuous beams) with full boundary compatibility.</li>
         <li><strong>Compound Beam Breakdown:</strong> Automatically decomposes multi-hinge Gerber beams span-by-span, illustrating exactly how internal forces transfer between members.</li>
-        <li><strong>Advanced Structural Conditions:</strong> Handles variable flexural stiffness (stepped EI), sinking supports (support settlement), and internal moment releases.</li>
+        <li><strong>Advanced Structural Conditions:</strong> Handles variable flexural stiffness (stepped EI), sinking supports (support settlement), internal moment releases, and elastic spring foundations.</li>
         <li><strong>Textbook Drafting Engine:</strong> Generates clean, clutter-free Free Body Diagrams adhering to civil engineering drafting standards with intelligent label placement.</li>
         <li><strong>Stress Analysis:</strong> Computes flexural stresses and section properties for standard profiles (I-beams, pipes, solid rounds, and rectangular sections).</li>
         <li><strong>Automated PDF Reports:</strong> Compiles the entire step-by-step derivation into a publication-ready PDF calculation sheet in one click.</li>
